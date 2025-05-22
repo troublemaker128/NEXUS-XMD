@@ -7,7 +7,7 @@ cmd({
     alias: ["listcmd", "commands"],
     desc: "Show all available commands with descriptions",
     category: "menu",
-    react: "📜",
+    react: "☕",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
@@ -73,7 +73,7 @@ cmd({
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/ug8w1x.jpg' },
+                image: { url: config.MENU_IMAGE_URL || '' },
                 caption: menuText,
                 contextInfo: {
                     mentionedJid: [m.sender],

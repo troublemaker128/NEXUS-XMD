@@ -66,8 +66,8 @@ ${translatedTafsirEnglish.text}`;
           forwardingScore: 999,  
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363354023106228@newsletter', 
-            newsletterName: 'JawadTechX', 
+            newsletterJid: '120363288304618280@newsletter', 
+            newsletterName: 'Pkdriller', 
             serverMessageId: 143
           }
         }
@@ -449,7 +449,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/ug8w1x.jpg` },
+                image: { url: `https://files.catbox.moe/yek5ca.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
