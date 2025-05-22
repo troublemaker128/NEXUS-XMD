@@ -66,13 +66,13 @@ cmd({
       if (warningCount < 4) {
         // Send warning message
         await conn.sendMessage(from, {
-          text: `‎*⚠️LINKS ARE NOT ALLOWED⚠️*\n` +
-                `*╭────⬡ WARNING ⬡────*\n` +
-                `*├▢ USER :* @${sender.split('@')[0]}!\n` +
-                `*├▢ COUNT : ${warningCount}*\n` +
-                `*├▢ REASON : LINK SENDING*\n` +
-                `*├▢ WARN LIMIT : 3*\n` +
-                `*╰────────────────*`,
+          text: `‎*❄️IDIOT I WILL KICK YOUR ASS OUT ❄️*\n` +
+                `‡╭────❗ WARNING ❗────*\n` +
+                `‡├★ USER :* @${sender.split('@')[0]}!\n` +
+                `‡├★ COUNT : ${warningCount}*\n` +
+                `‡├★ REASON : LINK SENDING*\n` +
+                `‡├★ WARN LIMIT : 3*\n` +
+                `‡╰────────────────*`,
           mentions: [sender]
         });
       } else {
