@@ -6,8 +6,8 @@ const path = require("path");
 const { cmd, commands } = require("../command");
 
 cmd({
-  'pattern': "tolink",
-  'alias': ["imgto", "imglink", "tolink", "getlink", "pk"],
+  'pattern': "tourl",
+  'alias': ["imgtourl", "imgurl", "url", "geturl", "upload"],
   'react': '🖇',
   'desc': "Convert media to Catbox URL",
   'category': "utility",
@@ -65,7 +65,7 @@ cmd({
       `*${mediaType} Uploaded Successfully*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `> © Uploaded by NEXUS-XMD ✅`
+      `> © Uploaded by NEXUS TECH ☣️`
     );
 
   } catch (error) {
@@ -81,4 +81,4 @@ function formatBytes(bytes) {
   const sizes = ['Bytes', 'KB', 'MB', 'GB'];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
   return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
-}
+      }
