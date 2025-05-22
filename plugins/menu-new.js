@@ -7,19 +7,19 @@ cmd({
     pattern: "menu",
     desc: "Show interactive menu system",
     category: "menu",
-    react: "🦖",
+    react: "🚀",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃🗽╭──────────────
-┃❄️│ 👤 O̾w̾n̾e̾r̾ : *${config.OWNER_NAME}*
+┃❄️│ 👤 𝕆𝕨𝕟𝕖𝕣̾ : *${config.OWNER_NAME}*
 ┃❄️│ 🗽 𝔹𝕒𝕚𝕝𝕖𝕪𝕤 : *Multi Device*
-┃❄️│ ❄️ 🆃🆈🅿🅴 : *NodeJs*
-┃❄️│ 🏩 P̾l̾a̾t̾f̾o̾r̾m̾ : *Panel*
-┃❄️│ 🤔 𝕸𝖔𝖉𝖊 : *[${config.MODE}]*
-┃❄️│ ✅【﻿Ｐｒｅｆｉｘ】 : *[${config.PREFIX}]*
-┃❄️│ ❤️‍🔥 𝒱𝑒𝓇𝓈𝒾𝑜𝓃 : *4.0.0 Antiban*
+┃❄️│ ❄️ 𝕋𝕪𝕡𝕖 : *NodeJs*
+┃❄️│ 🏩 ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞 : *Panel*
+┃❄️│ 🤔 𝕄𝕠𝕕𝕖 : *[${config.MODE}]*
+┃❄️│ ✅ ℙ𝕣𝕖𝕗𝕚𝕩 : *[${config.PREFIX}]*
+┃❄️│ ❤️‍🔥 𝕍𝕖𝕣𝕤𝕚𝕠𝕟 : *4.0.0 Antiban*
 ┃❄️╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *⏩MENU LIST⏮️* 〕━━┈⊷
