@@ -7,7 +7,7 @@ cmd({
     alias: ["listcmd", "commands"],
     desc: "Show all available commands with descriptions",
     category: "menu",
-    react: "☕",
+    react: "📜",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {

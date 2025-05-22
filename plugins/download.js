@@ -7,8 +7,8 @@ const axios = require("axios");
 const { cmd, commands } = require('../command');
 
 cmd({
-  pattern: "ig",
-  alias: ["insta", "Instagram"],
+  pattern: "ig2",
+  alias: ["insta2", "Instagram2"],
   desc: "To download Instagram videos.",
   react: "🎥",
   category: "download",
@@ -254,7 +254,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By NEXUS TECHI*`;
+🔗 *Powered By Nexus-xmd*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -305,7 +305,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "*© Powered By NEXUS TECH*"
+        caption: "*© Powered By JawadTechX*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
