@@ -74,7 +74,7 @@ To turn Off:
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363290715861418@newsletter', // Ensure this JID is valid
-                    newsletterName: "PopkidXtech",
+                    newsletterName: "nexus-xmd",
                     serverMessageId: 143
                 }
             }
