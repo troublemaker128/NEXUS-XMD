@@ -117,26 +117,24 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭══════════════⊷
-┃ 🗽▁ ▂ ▃ ▅ ▆ ▇ ▌SUCCESSFULLY CONNECTED TO NEXUS-XMD▐ ▇ ▆ ▅ ▃ ▂ ▁
-╰══════════════⊷
-╭══════════════⊷
-┃✫☼☾☁ 𝗖𝝜𝝚𝗖𝝟 Ɍ𝝚𝝦𝝤 ☁☾☼✫
-┃https://github.com/Pkdriller/NEXUS-XMD
-╰══════════════⊷
-╭══════════════⊷
-┃ ❀ꗥ～ꗥ❀ 𝐕𝐈𝐒𝐈𝐓 𝐎𝐔𝐑 𝐖𝐄𝐁𝐒𝐈𝐓𝐄 ❀ꗥ～ꗥ❀
-┃https://ww-pkdriller-e3zw.vercel.app/
-╰══════════════⊷
-╭══════════════⊷
-┃ ғᴏʀᴋ ᴀɴᴅ sᴛᴀʀ ᴏᴜʀ ʀᴇᴘᴏ
-┃ ғᴏʀ ᴄᴏᴜʀᴀɢᴇ ᴘʟᴇᴀsᴇ
-╰══════════════⊷
-╭══════════════⊷
-┃ ❀💋❀ ƇΘƝƬ𐤠ƇƬ ΘⱲƝƸⱤ ❀💋❀
-┃reach-out-pk-driller.vercel.app
-╰══════════════⊷`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/071v1s.jpg` }, caption: up })
+  let up = `*✨ Hello, POPKID-XTECH Legend! ✨*
+
+╭─〔 *🤖 NEXUS-XMD BOT* 〕  
+├─▸ *Simplicity. Speed. Power. BY JOSEPH.  
+|    MWANGI!*  
+╰─➤ *Your New WhatsApp Sidekick is Here!*
+
+*❤️ Thank you for Choosing JOEX-MD!*
+
+╭──〔 🔗 *Quick Links* 〕  
+├─ 📢 *Join Our Channel:*  
+│   Click [**Here**](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x) to join!  
+├─ ⭐ *Give Us a Star:*  
+│   Star Us [**Here**](https://github.com/Pkdriller/NEXUS-XMD)!  
+╰─🛠️ *Prefix:* \`${prefix}\`
+
+> _© MADE BY PKDRILLER_`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/o3mkn9.jpeg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -185,7 +183,7 @@ const port = process.env.PORT || 9090;
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS_MSG}`
-  await conn.sendMessage(user, { text: text, react: { text: '🗽', key: mek.key } }, { quoted: mek })
+  await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
             }
             await Promise.all([
               saveMessage(mek),
