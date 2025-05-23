@@ -19,16 +19,17 @@ const {
     jidDecode,
     fetchLatestBaileysVersion,
     Browsers
-  } = require('@whiskeysockets/baileys')
-  
-  
+    } = require('@whiskeysockets/baileys')
+
+
   const l = console.log
   const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
   const { AntiDelDB, initializeAntiDeleteSettings, setAnti, getAnti, getAllAntiDeleteSettings, saveContact, loadMessage, getName, getChatSummary, saveGroupMetadata, getGroupMetadata, saveMessageCount, getInactiveGroupMembers, getGroupMembersMessageCount, saveMessage } = require('./data')
   const fs = require('fs')
   const ff = require('fluent-ffmpeg')
   const P = require('pino')
-  const config = require('./config')
+  const config = require('./config') // Ensure config is loaded
+  const GroupEvents = require('./lib/groupevents');
   const qrcode = require('qrcode-terminal')
   const StickersTypes = require('wa-sticker-formatter')
   const util = require('util')
@@ -42,6 +43,10 @@ const {
   const Crypto = require('crypto')
   const path = require('path')
   const prefix = config.PREFIX
+
+  // --- NEW: Import the call handler module ---
+  const callHandler = require('./lib/callhandler');
+  // ------------------------------------------
   
   const ownerNumber = ['254794146821']
   
