@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "nexus~qR400TaC#nkTebNRFO85be8uhSzU-FF2x8dGUj5bcAiVDis6JE38",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -23,7 +23,7 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/78muhw.jpg",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/z62ts0.jpg",
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -39,11 +39,11 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "254794146821",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "pkdriller",
+OWNER_NAME: process.env.OWNER_NAME || "Pkdriller",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© powered by Nexus-xmd*",
+DESCRIPTION: process.env.DESCRIPTION || "*© powered by Pkdriller*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/lr95at.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/z62ts0.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> AM ACTIVE *NEXUS-XMD*⚡",
 // add alive msg here 
@@ -78,7 +78,7 @@ ANTI_VV: process.env.ANTI_VV || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+// make it true for auto recoding
+ANTICALL: process.env.ANTICALL || "false"
 // make it true for auto recoding 
-ANTI_CALL: process.env.ANTICALL || "false"
-// make it true for auto reject call
-};
+};    
