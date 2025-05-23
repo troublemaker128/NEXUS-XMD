@@ -73,7 +73,7 @@ To turn Off:
                 forwardingScore: 999, // You can adjust or remove this
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363290715861418@newsletter', // Ensure this JID is valid
+                    newsletterJid: '120363288304618280@newsletter', // Ensure this JID is valid
                     newsletterName: "nexus-xmd",
                     serverMessageId: 143
                 }
