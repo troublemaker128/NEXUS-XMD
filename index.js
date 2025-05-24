@@ -117,21 +117,27 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, POPKID-XTECH Legend! ✨*
+  let up = `*✨ Hello, NEXUS-XMD Legend! ✨*
 
-╭─〔 *🤖 NEXUS-XMD BOT* 〕  
-├─▸ *Simplicity. Speed. Power. BY JOSEPH.  
-|    MWANGI!*  
-╰─➤ *Your New WhatsApp Sidekick is Here!*
-
-*❤️ Thank you for Choosing JOEX-MD!*
-
-╭──〔 🔗 *Quick Links* 〕  
-├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x) to join!  
-├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Pkdriller/NEXUS-XMD)!  
-╰─🛠️ *Prefix:* \`${prefix}\`
+╭══════════════⊷
+┃ 🗽▁ ▂ ▃ ▅ ▆ ▇ ▌SUCCESSFULLY CONNECTED TO NEXUS-XMD▐ ▇ ▆ ▅ ▃ ▂ ▁
+╰══════════════⊷
+╭══════════════⊷
+┃✫☼☾☁ 𝗖𝝜𝝚𝗖𝝟 Ɍ𝝚𝝦𝝤 ☁☾☼✫
+┃https://github.com/Pkdriller/NEXUS-XMD
+╰══════════════⊷
+╭══════════════⊷
+┃ ❀ꗥ～ꗥ❀ 𝐕𝐈𝐒𝐈𝐓 𝐎𝐔𝐑 𝐖𝐄𝐁𝐒𝐈𝐓𝐄 ❀ꗥ～ꗥ❀
+┃https://ww-pkdriller-e3zw.vercel.app/
+╰══════════════⊷
+╭══════════════⊷
+┃ ғᴏʀᴋ ᴀɴᴅ sᴛᴀʀ ᴏᴜʀ ʀᴇᴘᴏ
+┃ ғᴏʀ ᴄᴏᴜʀᴀɢᴇ ᴘʟᴇᴀsᴇ
+╰══════════════⊷
+╭══════════════⊷
+┃ ❀💋❀ ƇΘƝƬ𐤠ƇƬ ΘⱲƝƸⱤ ❀💋❀
+┃reach-out-pk-driller.vercel.app
+╰══════════════⊷
 
 > _© MADE BY PKDRILLER_`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/o3mkn9.jpeg` }, caption: up })
