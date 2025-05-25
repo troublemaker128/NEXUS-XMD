@@ -58,7 +58,7 @@
 [![Follow My GitHub](https://img.shields.io/static/v1?label=Follow%20My%20GitHub&message=Account&color=800000&style=for-the-badge&logo=github&logoColor=pink)](https://github.com/pkdriller) 
 <p align="center">
     
-
+THANKS ALL FOR SUPPORTING ⏮️💙⏩
 [![Stargazers repo roster for @Pkdriller/NEXUS-XMD](http://reporoster.com/stars/dark/Pkdriller/NEXUS-XMD)](https://github.com/Pkdriller/NEXUS-XMD/stargazers)
      
 [![Forkers repo roster for @Pkdriller/NEXUS-XMD](http://reporoster.com/forks/dark/Pkdriller/NEXUS-XMD)](https://github.com/Pkdriller/NEXUS-XMD/network/members)
