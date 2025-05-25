@@ -17,6 +17,12 @@
       "description": "type your sticker pack name.",
       "required": false,
       "value": "NEXUS-XMD"
+    },
+    
+    "MENU_IMAGE_URL": {
+      "description": "add url for mention reply and menu if want.",
+      "required": true,
+      "value": "https://files.catbox.moe/z62ts0.jpg"
     }, 
       
     "PREFIX": {
@@ -35,25 +41,31 @@
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": false,
+      "required": true,
+      "value": "false"  
+    },
+    
+    "AUTO_BIO": {
+      "description": "Make it true if want auto about changing.",
+      "required": true,
       "value": "false"  
     },    
   
     "AUTO_VOICE": {
       "description": "Make it true if want automatic voice reply .",
-      "required": false,
+      "required": true,
       "value": "false"
     }, 
 
     "AUTO_REPLY": {
       "description": "Make it true if you want automatic reply.",
-      "required": false,
+      "required": true,
       "value": "false"
     }, 
 
     "AUTO_STICKER": {
       "description": "Make it true if you want automatic sticker.",
-      "required": false,
+      "required": true,
       "value": "false"
     }, 
 
@@ -79,95 +91,75 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY NEXUS-XMD 🖤*"
+      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW Sʜᴀʙᴀɴ-Mᴅ 𓅓*"
    
      }, 
-    
-    "OWNER_NAME": {
-      "description": "Type Bot Owner Name.",
-      "required": false,
-      "value": "Pkdriller"
-}, 
-
-    "OWNER_NUMBER": {
-      "description": "put the owner number for bot.",
-      "required": false,
-      "value": "254794146821"
-
-    }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
       "value": "NEXUS-XMD"
 
-      }, 
-
+     },
+     
+    "DELETE_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": false,
+      "value": "false"
+    }, 
+    
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
-      "value": "true"
-      
+      "value": "false"
+    },
+    
+    "ADMIN_EVENTS": {
+      "description": "make it true if want know who promote or demote a member .",
+      "required": true,
+      "value": "false"
     },
 
-     "ANTI_LINK_KICK": {
-      "description": "Make it true if you want bot auto remove group link.",
+    "WELCOME": {
+      "description": "make it true if want goodbye and welcome message in groups.",
+      "required": true,
+      "value": "false"
+    },
+     
+    "ANTI_CALL": {
+      "description": "Make it true if you want bot auto call rejected.",
       "required": true,
       "value": "false"
       
-    },
+    }, 
     
-    "ANTI_BAD": {
+    "ANTI_BAD_WORD": {
       "description": "Make it true if you want bot auto delete bad words.",
-      "required": false,
+      "required": true,
       "value": "false"
-    },
-
-   "MENTION_REPLY": {
-      "description": "make it true if want mention reply if someone menetion you.",
-      "required": false,
-      "value": "false"
-    },
-    
-    "MENU_IMAGE_URL": {
-      "description": "add url for mention reply and menu if want.",
-      "required": false,
-      "value": "https://files.catbox.moe/z62ts0.jpg"
-    },
-    
-     "DESCRIPTION": {
-      "description": "add caption for menu and other",
-      "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pkdriller*"
-    },
-
-      "DELETE_LINKS": {
-      "description": "remove links from group automatically without removing member",
-      "required": false,
-      "value": "false"
-    },
+    }, 
     
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
-      "required": false,
+      "required": true,
       "value": "false"
     },
 
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
-      "required": false,
+      "required": true,
       "value": "false"
     },
 
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
-      "required": false,
+      "required": true,
       "value": "false"
     },
     
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
-      "required": false,
+      "required": true,
       "value": "false"
       
     }, 
@@ -184,21 +176,9 @@
       "value": "log"
     }, 
 
-    "ADMIN_EVENTS": {
-      "description": "make it true if want know who promote or demote a member .",
-      "required": false,
-      "value": "false"
-    },
-
-    "WELCOME": {
-      "description": "make it true if want goodbye and welcome message in groups.",
-      "required": false,
-      "value": "true"
-    },
-
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
-      "required": false,
+      "required": true,
       "value": "false"
     }
 
