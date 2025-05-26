@@ -1,7 +1,7 @@
 {
   "name": "NEXUS-XMD",
   "description": "Javascript WhatsApp bot made by Pkdriller",
-  "logo": "https://files.catbox.moe/lr95at.jpg",
+  "logo": "https://files.catbox.moe/z62ts0.jpg",
   "keywords": ["NEXUS-XMD"],
   "success_url": "/",
 
@@ -109,14 +109,21 @@
       "value": "true"
       
     },
+
+     "ANTI_LINK_KICK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "false"
+      
+    },
     
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
       "value": "false"
-    }, 
+    },
 
-    "MENTION_REPLY": {
+   "MENTION_REPLY": {
       "description": "make it true if want mention reply if someone menetion you.",
       "required": false,
       "value": "false"
@@ -125,10 +132,10 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/70d7ut.jpeg"
+      "value": "https://files.catbox.moe/7zfdcq.jpg"
     },
-     
-    "DESCRIPTION": {
+    
+     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
       "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pkdriller*"
@@ -137,7 +144,7 @@
       "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     
     "AUTO_RECORDING": {
@@ -176,6 +183,18 @@
       "required": false,
       "value": "log"
     }, 
+
+    "ADMIN_EVENTS": {
+      "description": "make it true if want know who promote or demote a member .",
+      "required": false,
+      "value": "false"
+    },
+
+    "WELCOME": {
+      "description": "make it true if want goodbye and welcome message in groups.",
+      "required": false,
+      "value": "true"
+    },
 
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
