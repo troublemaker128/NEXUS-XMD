@@ -1,1 +1,92 @@
-const _0x914561=_0x1461;(function(_0x37c57c,_0x1f36b2){const _0x31cd5a=_0x1461,_0x499511=_0x37c57c();while(!![]){try{const _0x2cfc7c=parseInt(_0x31cd5a(0x1c5))/0x1*(parseInt(_0x31cd5a(0x1d4))/0x2)+parseInt(_0x31cd5a(0x1bd))/0x3+-parseInt(_0x31cd5a(0x1be))/0x4*(parseInt(_0x31cd5a(0x1ca))/0x5)+-parseInt(_0x31cd5a(0x1d1))/0x6*(-parseInt(_0x31cd5a(0x1ce))/0x7)+parseInt(_0x31cd5a(0x1cd))/0x8*(-parseInt(_0x31cd5a(0x1c0))/0x9)+-parseInt(_0x31cd5a(0x1c3))/0xa+parseInt(_0x31cd5a(0x1d8))/0xb;if(_0x2cfc7c===_0x1f36b2)break;else _0x499511['push'](_0x499511['shift']());}catch(_0x313fdb){_0x499511['push'](_0x499511['shift']());}}}(_0x115a,0x2b366));const {cmd}=require('../command'),config=require(_0x914561(0x1d2));function _0x115a(){const _0x5beef=['1606790aRuCOj','‡├★\x20WARN\x20LIMIT\x20:\x203*\x0a','35699plzsuA','body','‡├★\x20COUNT\x20:\x20','test','‎*❄️IDIOT\x20I\x20WILL\x20KICK\x20YOUR\x20ASS\x20OUT\x20❄️*\x0a','1264210yJgRic','sendMessage','Link\x20detected\x20from\x20','8AILPLp','147063Ojsggk','warnings','‡├★\x20REASON\x20:\x20LINK\x20SENDING*\x0a','90yBvGDK','../config','Anti-link\x20error:','4rvLRdL','groupParticipantsUpdate','key','error','4470708YRBCIa','Failed\x20to\x20delete\x20message:','ANTI_LINK','94695gURKMH','4uQTuDQ','log','2106063umjxVh','remove','★╭────❗NEXUS\x20WARNING\x20❗────*\x0a'];_0x115a=function(){return _0x5beef;};return _0x115a();}function _0x1461(_0x4454b5,_0x13e77f){const _0x115a0c=_0x115a();return _0x1461=function(_0x146102,_0x163df0){_0x146102=_0x146102-0x1bb;let _0x59737d=_0x115a0c[_0x146102];return _0x59737d;},_0x1461(_0x4454b5,_0x13e77f);}cmd({'on':_0x914561(0x1c6)},async(_0x2d7d76,_0x438c79,_0x4716d3,{from:_0x3b7873,body:_0x2eaf89,sender:_0x3a61e4,isGroup:_0x30b26b,isAdmins:_0x54a1e1,isBotAdmins:_0x5309d8,reply:_0x4fc08b})=>{const _0x1b8512=_0x914561;try{!global[_0x1b8512(0x1cf)]&&(global[_0x1b8512(0x1cf)]={});if(!_0x30b26b||_0x54a1e1||!_0x5309d8)return;const _0x58099e=[/https?:\/\/(?:chat\.whatsapp\.com|wa\.me)\/\S+/gi,/https?:\/\/(?:api\.whatsapp\.com|wa\.me)\/\S+/gi,/wa\.me\/\S+/gi,/https?:\/\/(?:t\.me|telegram\.me)\/\S+/gi,/https?:\/\/(?:www\.)?\.com\/\S+/gi,/https?:\/\/(?:www\.)?twitter\.com\/\S+/gi,/https?:\/\/(?:www\.)?linkedin\.com\/\S+/gi,/https?:\/\/(?:whatsapp\.com|channel\.me)\/\S+/gi,/https?:\/\/(?:www\.)?reddit\.com\/\S+/gi,/https?:\/\/(?:www\.)?discord\.com\/\S+/gi,/https?:\/\/(?:www\.)?twitch\.tv\/\S+/gi,/https?:\/\/(?:www\.)?vimeo\.com\/\S+/gi,/https?:\/\/(?:www\.)?dailymotion\.com\/\S+/gi,/https?:\/\/(?:www\.)?medium\.com\/\S+/gi],_0x40f5b0=_0x58099e['some'](_0x23629b=>_0x23629b[_0x1b8512(0x1c8)](_0x2eaf89));if(_0x40f5b0&&config[_0x1b8512(0x1bc)]==='true'){console['log'](_0x1b8512(0x1cc)+_0x3a61e4+':\x20'+_0x2eaf89);try{await _0x2d7d76[_0x1b8512(0x1cb)](_0x3b7873,{'delete':_0x438c79[_0x1b8512(0x1d6)]}),console[_0x1b8512(0x1bf)]('Message\x20deleted:\x20'+_0x438c79[_0x1b8512(0x1d6)]['id']);}catch(_0x4175dc){console[_0x1b8512(0x1d7)](_0x1b8512(0x1bb),_0x4175dc);}global[_0x1b8512(0x1cf)][_0x3a61e4]=(global['warnings'][_0x3a61e4]||0x0)+0x1;const _0x60cc7d=global['warnings'][_0x3a61e4];_0x60cc7d<0x4?await _0x2d7d76[_0x1b8512(0x1cb)](_0x3b7873,{'text':_0x1b8512(0x1c9)+_0x1b8512(0x1c2)+('‡├★\x20USER\x20:*\x20@'+_0x3a61e4['split']('@')[0x0]+'!\x0a')+(_0x1b8512(0x1c7)+_0x60cc7d+'*\x0a')+_0x1b8512(0x1d0)+_0x1b8512(0x1c4)+'★╰────────────────*','mentions':[_0x3a61e4]}):(await _0x2d7d76[_0x1b8512(0x1cb)](_0x3b7873,{'text':'@'+_0x3a61e4['split']('@')[0x0]+'\x20*HAS\x20BEEN\x20REMOVED\x20-\x20WARN\x20LIMIT\x20EXCEEDED!*','mentions':[_0x3a61e4]}),await _0x2d7d76[_0x1b8512(0x1d5)](_0x3b7873,[_0x3a61e4],_0x1b8512(0x1c1)),delete global[_0x1b8512(0x1cf)][_0x3a61e4]);}}catch(_0x5e6257){console[_0x1b8512(0x1d7)](_0x1b8512(0x1d3),_0x5e6257),_0x4fc08b('❌\x20An\x20error\x20occurred\x20while\x20processing\x20the\x20message.');}});
+const { cmd } = require('../command');
+const config = require("../config");
+
+cmd({
+  'on': "body"
+}, async (conn, m, store, {
+  from,
+  body,
+  sender,
+  isGroup,
+  isAdmins,
+  isBotAdmins,
+  reply
+}) => {
+  try {
+    // Initialize warnings if not exists
+    if (!global.warnings) {
+      global.warnings = {};
+    }
+
+    // Only act in groups where bot is admin and sender isn't admin
+    if (!isGroup || isAdmins || !isBotAdmins) {
+      return;
+    }
+
+    // List of link patterns to detect
+    const linkPatterns = [
+      /https?:\/\/(?:chat\.whatsapp\.com|wa\.me)\/\S+/gi, // WhatsApp links
+      /https?:\/\/(?:api\.whatsapp\.com|wa\.me)\/\S+/gi,  // WhatsApp API links
+      /wa\.me\/\S+/gi,                                    // WhatsApp.me links
+      /https?:\/\/(?:t\.me|telegram\.me)\/\S+/gi,         // Telegram links
+      /https?:\/\/(?:www\.)?\.com\/\S+/gi,                // Generic .com links
+      /https?:\/\/(?:www\.)?twitter\.com\/\S+/gi,         // Twitter links
+      /https?:\/\/(?:www\.)?linkedin\.com\/\S+/gi,        // LinkedIn links
+      /https?:\/\/(?:whatsapp\.com|channel\.me)\/\S+/gi,  // Other WhatsApp/channel links
+      /https?:\/\/(?:www\.)?reddit\.com\/\S+/gi,          // Reddit links
+      /https?:\/\/(?:www\.)?discord\.com\/\S+/gi,         // Discord links
+      /https?:\/\/(?:www\.)?twitch\.tv\/\S+/gi,           // Twitch links
+      /https?:\/\/(?:www\.)?vimeo\.com\/\S+/gi,           // Vimeo links
+      /https?:\/\/(?:www\.)?dailymotion\.com\/\S+/gi,     // Dailymotion links
+      /https?:\/\/(?:www\.)?medium\.com\/\S+/gi           // Medium links
+    ];
+
+    // Check if message contains any forbidden links
+    const containsLink = linkPatterns.some(pattern => pattern.test(body));
+
+    // Only proceed if anti-link is enabled and link is detected
+    if (containsLink && config.ANTI_LINK === 'true') {
+      console.log(`Link detected from ${sender}: ${body}`);
+
+      // Try to delete the message
+      try {
+        await conn.sendMessage(from, {
+          delete: m.key
+        });
+        console.log(`Message deleted: ${m.key.id}`);
+      } catch (error) {
+        console.error("Failed to delete message:", error);
+      }
+
+      // Update warning count for user
+      global.warnings[sender] = (global.warnings[sender] || 0) + 1;
+      const warningCount = global.warnings[sender];
+
+      // Handle warnings
+      if (warningCount < 4) {
+        // Send warning message
+        await conn.sendMessage(from, {
+          text: `‎*⚠️LINKS ARE NOT ALLOWED⚠️*\n` +
+                `*╭────⬡ WARNING ⬡────*\n` +
+                `*├▢ USER :* @${sender.split('@')[0]}!\n` +
+                `*├▢ COUNT : ${warningCount}*\n` +
+                `*├▢ REASON : LINK SENDING*\n` +
+                `*├▢ WARN LIMIT : 3*\n` +
+                `*╰────────────────*`,
+          mentions: [sender]
+        });
+      } else {
+        // Remove user if they exceed warning limit
+        await conn.sendMessage(from, {
+          text: `@${sender.split('@')[0]} *HAS BEEN REMOVED - WARN LIMIT EXCEEDED!*`,
+          mentions: [sender]
+        });
+        await conn.groupParticipantsUpdate(from, [sender], "remove");
+        delete global.warnings[sender];
+      }
+    }
+  } catch (error) {
+    console.error("Anti-link error:", error);
+    reply("❌ An error occurred while processing the message.");
+  }
+});
