@@ -60,6 +60,20 @@
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
 
+*FOR PANEL DEPLOYMENT*
+
+---
+
+### 📦 Download the Bot File
+
+<p align="center">
+  <a href="https://github.com/Pkdriller/NEXUS-XMD/archive/refs/heads/main.zip">
+    <img src="https://img.shields.io/badge/Download%20Bot-file-FF009D?style=for-the-badge&logo=github&logoColor=white" alt="Download Bot File" />
+  </a>
+</p>
+
+---
+
 ⭐ Follow My GitHub ⭐
 [![Follow My GitHub](https://img.shields.io/static/v1?label=Follow%20My%20GitHub&message=Account&color=800000&style=for-the-badge&logo=github&logoColor=pink)](https://github.com/pkdriller) 
 <p align="center">
