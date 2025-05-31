@@ -12,7 +12,7 @@ cmd({
     const voiceClips = [
       "https://files.catbox.moe/l38fqe.mp3",
       "https://files.catbox.moe/l38fqe.mp3",
-      
+      "https://files.catbox.moe/b98zvt.mp3"'
     ];
 
     const randomClip = voiceClips[Math.floor(Math.random() * voiceClips.length)];
