@@ -72,7 +72,8 @@
   </a>
 </p>
 
----
+[![REPORT PROBLEM](https://img.shields.io/badge/REPORT%20PROBLEM-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/254794146821?text=Hello%2C%20I%20want%20to%20report%20a%20problem%20with%20this%20project.)
+
 
 ⭐ Follow My GitHub ⭐
 [![Follow My GitHub](https://img.shields.io/static/v1?label=Follow%20My%20GitHub&message=Account&color=800000&style=for-the-badge&logo=github&logoColor=pink)](https://github.com/pkdriller) 
